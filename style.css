@@ -223,3 +223,29 @@
 .ex-12-button:hover .ex-12-bottom-white{
     animation: move2 2s linear;
 }
+
+@keyframes move3{
+    0%{left: 10%;}
+    10%{left: 90%; top: -10px;}
+    20%{left: 77%; top: 54px;}
+    40%{left: -10px; top: 54px;}
+    60%{left: -10px; top: -10px;}
+    100%{left: 10%; top: -10px;}
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: move3 2s linear;
+}
+
+@keyframes move4{
+    0%{right: 20%;}
+    20%{right: 77%; bottom: -10px;}
+    40%{right: 77%; bottom: 54px;}
+    60%{right: 0%; bottom: 54px;}
+    80%{right: 0%; bottom: -10px;}
+    100%{right: 10%; bottom: -10px;}
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: move4;
+}
