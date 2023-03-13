@@ -106,7 +106,7 @@
 }
 
 .ex-6-img:hover{
-    filter: grayscale(1);  
+    filter: grayscale(.6) sepia(.5);  
 }
 
 
@@ -226,10 +226,10 @@
 
 @keyframes move3{
     0%{left: 10%;}
-    10%{left: 90%; top: -10px;}
-    20%{left: 77%; top: 54px;}
-    40%{left: -10px; top: 54px;}
-    60%{left: -10px; top: -10px;}
+    20%{left: 90%; top: -10px;}
+    40%{left: 77%; top: 54px;}
+    60%{left: -10px; top: 54px;}
+    80%{left: -10px; top: -10px;}
     100%{left: 10%; top: -10px;}
 }
 
@@ -247,5 +247,5 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: move4;
+    animation: move4 2s linear;
 }
